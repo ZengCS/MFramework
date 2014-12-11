@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MFramework</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_copyright">Copyright &#169; 2012&#8211;2014 ZengCS. All Rights Reserved.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="back">返&#160;回</string>
+    <string name="clear">清&#160;&#160;空</string>
+    <string name="exit">退&#160;出</string>
+    <string name="config">设&#160;置</string>
+    <string name="register">注&#160;&#160;册</string>
+    <string name="save">保&#160;存</string>
+    <string name="start">开&#160;始</string>
+    <string name="bg_str">背&#160;景</string>
+    <string name="stop">停&#160;止</string>
+    <string name="login">Log In To MFramework</string>
+    <string name="logout">注&#160;销</string>
+    <string name="submit">提&#160;&#160;交</string>
+    <string name="ok">确&#160;&#160;定</string>
+    <string name="cancel">取&#160;&#160;消</string>
+    <string name="dialog_dft_title">提示信息</string>
+    <string name="exit_confirm">您确定要退出吗？</string>
+    <string name="loading_str">加载中，请稍后&#8230;</string>
+    <string name="clear_and_exit">清除使用痕迹并退出</string>
+    <string name="title_activity_push"></string>
+    <string name="title_activity_push_receive"></string>
+    <string name="title_activity_list_view_pull_refresh"></string>
+    <string name="title_activity_sqlite"></string>
+    <string name="title_activity_gallery"></string>
+    <string name="title_activity_view_pager"></string>
+    <string name="title_activity_config"></string>
+    <string name="title_activity_animation"></string>
+    <string name="title_activity_mfragment"></string>
+    <string name="title_activity_circle_progress"></string>
+    <string name="title_activity_grid_view"></string>
+    <string name="title_activity_my_buttons"></string>
+    <string name="title_activity_baidu_location"></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_list_slide_delete">ListSlideDeleteActivity</string>
+    <string name="title_activity_sort_list_view">SortListViewActivity</string>
+    <string name="title_activity_qrcode_scan">QRCodeScanActivity</string>
+    <string name="title_activity_draw_graphic">DrawGraphicActivity</string>
+
+</resources>

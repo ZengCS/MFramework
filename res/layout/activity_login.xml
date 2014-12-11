@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/repeat_bg_main"
+    android:padding="5dip"
+    tools:context=".LoginActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="100dip"
+            android:paddingLeft="50dip"
+            android:paddingRight="50dip" >
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+
+                <com.zcs.mframework.widget.CircularImage
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="6dip"
+                    android:src="@drawable/chat_128" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <com.zcs.mframework.widget.ClearableEditText
+                android:id="@+id/login_username"
+                style="@style/hw_edittext_style_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:cursorVisible="true"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="UserName"
+                android:inputType="textPersonName"
+                android:maxLength="24"
+                android:padding="12dip"
+                android:singleLine="true"
+                android:textColor="#545454"
+                android:textColorHint="#AAAAAA"
+                android:textSize="24sp" >
+
+                <requestFocus />
+            </com.zcs.mframework.widget.ClearableEditText>
+
+            <com.zcs.mframework.widget.ClearableEditText
+                android:id="@+id/login_password"
+                style="@style/hw_edittext_style_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:cursorVisible="true"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLength="24"
+                android:padding="12dip"
+                android:singleLine="true"
+                android:textColor="#545454"
+                android:textColorHint="#AAAAAA"
+                android:textSize="24sp" >
+
+                <requestFocus />
+            </com.zcs.mframework.widget.ClearableEditText>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_blue_lightblue"
+                android:padding="12dip"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/my_copyright" />
+
+</RelativeLayout>

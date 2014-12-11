@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="5dip" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="英格兰（England），一译“英吉利”。大不列颠及北爱尔兰联合王国领土的主要部分，因此习惯上英格兰一词也泛指英国。英格兰位于大不列颠岛的东南部，苏格兰以南，威尔士以东，还包括怀特岛、锡利群岛和沿岸各小岛，面积约13万平方公里，是英国面积最大、人口最多、经济最发达的一个部分。在历史上，英格兰与苏格兰之间是以哈德良长城为界。英格兰这个名字源自“盎格鲁人”（Angles），其原名“Engla-lond”意为“盎格鲁人之地”，他们继凯尔特人之后来到这个地方，属日耳曼民族。"
+            android:textColor="#666"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</RelativeLayout>

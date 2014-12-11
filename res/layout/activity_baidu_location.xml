@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dip"
+    tools:context=".BaiduLocationActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/none_photo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+
+                <com.zcs.mframework.widget.CircularImage
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="6dip"
+                    android:src="@drawable/tablet" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+
+                <com.zcs.mframework.widget.CircularImage
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="6dip"
+                    android:src="@drawable/layers" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+
+                <com.zcs.mframework.widget.CircularImage
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="6dip"
+                    android:src="@drawable/flag_germany" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+
+                <com.zcs.mframework.widget.CircularImage
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="6dip"
+                    android:src="@drawable/chn" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+
+                <com.zcs.mframework.widget.CircularImage
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="6dip"
+                    android:src="@drawable/dadatoo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/circle_head_bg" />
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

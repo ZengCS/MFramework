@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MFragmentActivity" >
+    
+    <!-- The Footer -->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/lightgray"
+            android:contentDescription="@null" />
+
+        <fragment
+            android:id="@+id/fragment_tab"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            class="com.zcs.mframework.fragment.TabFragment" />
+    </LinearLayout>
+
+    <!-- The Context -->
+    <RelativeLayout
+        android:id="@+id/fragmentLayout"
+        android:layout_above="@id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/fragment_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.zcs.mframework.fragment.MainFragment" />
+    </RelativeLayout>
+
+</RelativeLayout>

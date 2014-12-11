@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="0dip"
+    android:orientation="horizontal"
+    android:padding="0dip" >
+
+    <!-- 左侧按钮-返回 -->
+
+    <TextView
+        android:id="@+id/title_btn_back"
+        style="@style/title_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dip"
+        android:drawableLeft="@drawable/arrow_left"
+        android:text="@string/back" />
+
+    <!-- 左侧按钮-注销 -->
+
+    <TextView
+        android:id="@+id/title_btn_exit"
+        style="@style/title_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dip"
+        android:drawableLeft="@drawable/arrow_left"
+        android:text="@string/logout" />
+
+    <!-- 中间的Title -->
+
+    <TextView
+        android:id="@+id/title_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="#F7F7F7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- 右侧按钮-设置 -->
+
+    <TextView
+        android:id="@+id/title_btn_config"
+        style="@style/title_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dip"
+        android:drawableLeft="@drawable/setting"
+        android:text="@string/config" />
+
+    <!-- 右侧按钮-保存 -->
+
+    <TextView
+        android:id="@+id/title_btn_save"
+        style="@style/title_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dip"
+        android:drawableLeft="@drawable/save"
+        android:text="@string/save" />
+
+    <!-- 右侧按钮-开始 -->
+
+    <TextView
+        android:id="@+id/title_btn_start"
+        style="@style/title_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dip"
+        android:drawableLeft="@drawable/star"
+        android:text="@string/start" />
+    
+    <!-- 右侧按钮-背景 -->
+
+    <TextView
+        android:id="@+id/title_btn_background"
+        style="@style/title_bar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dip"
+        android:drawableLeft="@drawable/setting"
+        android:text="@string/bg_str" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:minWidth="80dip"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

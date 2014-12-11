@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 设置选项布局 -->
+    <style name="config_item_layout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- 左侧图标 -->
+    <style name="config_item_icon">
+        <item name="android:maxWidth">60dip</item>
+        <item name="android:maxHeight">60dip</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+    <!-- 设置选项 -->
+    <style name="config_item_name">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <!-- 设置选项 -->
+    <style name="config_item_value">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:textColor">#385487</item>
+    </style>
+</resources>

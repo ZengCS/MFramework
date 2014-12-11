@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dip"
+    android:background="@drawable/article_list_item_bg"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="3dip" >
+
+    <!-- 左侧头像 -->
+
+    <RelativeLayout
+        android:layout_width="100dip"
+        android:layout_height="100dip" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:src="@drawable/circle_head_bg" />
+
+        <com.zcs.mframework.widget.CircularImage
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="6dip"
+            android:src="@drawable/dadatoo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dip" >
+
+        <!-- 标题 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="这里是文章的标题哦"
+            android:textColor="@color/new_blue"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <!-- 内容 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dip"
+            android:text="这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!这里是内容哦,可以很长很长的哦啊!"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+        <!-- 下标 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:text="类型:Java | 阅读:100 | 收藏:80 | 回复:55"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

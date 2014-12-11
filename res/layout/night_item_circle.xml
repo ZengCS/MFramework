@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_grid_icon_bg"
+    android:paddingBottom="4dip" >
+
+    <RelativeLayout
+        android:id="@+id/ItemImageLayout"
+        android:layout_width="@dimen/circle_icon_width"
+        android:layout_height="@dimen/circle_icon_width"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:background="@color/transparent" />
+
+        <com.zcs.mframework.widget.CircularImage
+            android:id="@+id/itemIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/circle_icon_margin"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ItemImageLayout"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/new_blue"
+        android:textSize="@dimen/circle_txt_size"
+        android:textStyle="bold" >
+    </TextView>
+
+</RelativeLayout>

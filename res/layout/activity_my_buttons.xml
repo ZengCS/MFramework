@@ -1,0 +1,451 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dip"
+    tools:context=".MyButtonsActivity" >
+
+    <!-- 默认蓝色,点击变亮蓝 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="默认蓝色,点击变亮蓝"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_blue_lightblue"
+                android:text="blue" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_blue_lightblue"
+                android:text="blue" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_blue_lightblue"
+                android:text="blue" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_blue_lightblue"
+                android:text="blue" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- 默认绿色,点击变黄色 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="默认绿色,点击变黄色"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_green_yellow"
+                android:text="green" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_green_yellow"
+                android:text="green" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_green_yellow"
+                android:text="green" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_green_yellow"
+                android:text="green" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- 默认红色,点击变橙色 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="默认红色,点击变橙色"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_red_orange"
+                android:text="red" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_red_orange"
+                android:text="red" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_red_orange"
+                android:text="red" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_red_orange"
+                android:text="red" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- 默认橙色,点击变黄色 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="默认橙色,点击变黄色"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_orange_yellow"
+                android:text="orange" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_orange_yellow"
+                android:text="orange" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_orange_yellow"
+                android:text="orange" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_orange_yellow"
+                android:text="orange" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- 默认黄色,点击变亮灰 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="默认黄色,点击变亮灰"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_yellow_white"
+                android:text="yellow" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_yellow_white"
+                android:text="yellow" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_yellow_white"
+                android:text="yellow" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_yellow_white"
+                android:text="yellow" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- 亮蓝 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="亮蓝"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_light_blue"
+                android:text="lightBlue" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_light_blue"
+                android:text="lightBlue" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_light_blue"
+                android:text="lightBlue" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_light_blue"
+                android:text="lightBlue" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- 亮灰 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="亮灰"
+        android:textColor="#666"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <HorizontalScrollView
+        android:paddingTop="5dip"
+        android:paddingBottom="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                style="@style/btn_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_white"
+                android:text="lightGray" />
+
+            <Button
+                style="@style/btn_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_white"
+                android:text="lightGray" />
+
+            <Button
+                style="@style/btn_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_white"
+                android:text="lightGray" />
+
+            <Button
+                style="@style/btn_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_white"
+                android:text="lightGray" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

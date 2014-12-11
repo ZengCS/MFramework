@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="5dip" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="西班牙（英语：The Kingdom of Spain，西班牙语：Reino de España）是一个位于欧洲西南部的君主立宪制国家，西邻同处于伊比利亚半岛的葡萄牙，北濒比斯开湾，东北部与法国及安道尔接壤，南隔直布罗陀海峡与非洲的摩洛哥相望。它领土还包括地中海中的巴利阿里群岛，大西洋的加那利群岛，及在非洲的休达和梅利利亚。海岸线长约7800公里，境内多山，欧洲高山国家之一。欧盟成员国之一。\n\n如今全球有5亿说西班牙语的人口，为世界上使用人数第二多的母语，并且是使用国家第二多的语言。西班牙属于发达国家，拥有完善的市场经济，国民生产总值（GDP）居欧洲国家前列。西班牙的制造业、旅游业十分发达。西班牙是世界最大的造船国之一，也是最大的汽车生产国之一。\n\n西班牙的制造业、旅游业发达。拥有十分优越的旅游资源，有“旅游王国”美誉[1] 。近代史上，西班牙是一个重要的文化发源地，它是文艺复兴时期欧洲最强大的国家，于15世纪中期至16世纪末期时成为影响世界的全球性帝国，为世界带来巨大影响。"
+            android:textColor="#666"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</RelativeLayout>

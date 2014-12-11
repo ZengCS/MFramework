@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="5dip" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="意大利共和国（意大利语：Repubblica Italiana）是一个欧洲国家（属于西欧），主要由南欧的亚平宁半岛及两个位于地中海中的岛屿西西里岛与萨丁岛所组成，国际代码为IT。意大利是欧洲人口第五多的国家，也是世界上人口第二十三多的国家。\n\n现今的意大利区域是以前欧洲民族及文化的摇篮，曾孕育出罗马文化及伊特拉斯坎文明，而意大利的首都罗马，几个世纪以来都是西方世界的政治中心，也曾经是罗马帝国 (罗马帝国后期迁都君士坦丁堡)的首都。意大利又是文艺复兴的发源地，而文艺复兴对欧洲影响深远，让欧洲思想前进了一大步。分裂的意大利最终在1870年完成统一。\n\n意大利是一个民主共和国，也是一个发达国家，它的生活质量指数则在世界上排名第8名。意大利在人类发展指数列表中则名列第18位，并拥有高度人均国内生产总额。根据国内生产总值与购买力平价国内生产总值的数据，意大利是世界第10大经济体。意大利的政府预算金额则是位居世界第5位。意大利是北大西洋公约和欧盟的创始会员国，也是八大工业国集团、20国集团和欧洲四大经济体成员之一。意大利也参予经济合作与发展组织、世界贸易组织、欧洲议会、西欧联盟及欧洲创新中心。意大利也参加申根协议，也是世界国防预算金额第9高的国家且分享北约的核武器。\n\n意大利在艺术、科学和技术上拥有悠久的传统，且直到2013年为止总共拥有48个联合国教科文组织世界遗产，也是世界上拥有最多世界遗产的国家。"
+            android:textColor="#666"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</RelativeLayout>

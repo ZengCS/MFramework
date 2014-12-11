@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.zcs.mframework"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/circleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.zcs.mframework.widget.MyProgressBar
+            android:id="@+id/myProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_margin="10dip"
+            android:background="#DDD" >
+        </com.zcs.mframework.widget.MyProgressBar>
+
+        <com.zcs.mframework.widget.CircleProgressBar
+            android:id="@+id/circleProgressBar1"
+            android:layout_width="160dip"
+            android:layout_height="160dip"
+            android:layout_margin="20dip"
+            android_custom:roundColor="#D1D1D1"
+            android_custom:roundProgressColor="#333333"
+            android_custom:roundWidth="10dip"
+            android_custom:textColor="#2277BB"
+            android_custom:textSize="18sp" />
+
+        <com.zcs.mframework.widget.CircleProgressBar
+            android:id="@+id/circleProgressBar2"
+            android_custom:style="FILL"
+            android:layout_width="160dip"
+            android:layout_height="160dip"
+            android:layout_margin="20dip"
+            android_custom:roundColor="#AAAAAA"
+            android_custom:roundProgressColor="#AAAAAA"
+            android_custom:roundWidth="2dip" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ViewPager Title -->
+	<string name="into_community">进入MFramework社区</string>
+	<string name="splash_string_1">科技改变生活。</string>
+	<string name="splash_string_2">知识改变命运。</string>
+	<string name="splash_string_3">MFramework社区\n给你一个意想不到的收获。</string>
+</resources>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDD" >
+
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:background="#F00"
+        android:clickable="true"
+        android:gravity="center"
+        android:longClickable="true"
+        android:text="删除"
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+
+    <com.zcs.mframework.widget.SlideListItemView
+        android:id="@+id/scrollItem"
+        android:layout_width="match_parent"
+        android:layout_height="100dip" >
+
+        <TextView
+            android:id="@+id/listTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/theme_blue"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="从右往左滑试试"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+    </com.zcs.mframework.widget.SlideListItemView>
+
+    <Button
+        android:id="@+id/listItemDelBtn"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/list_item_del_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:longClickable="true"
+        android:text="删除"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

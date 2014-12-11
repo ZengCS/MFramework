@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <!-- <dimen name="title_bar_height">56dp</dimen>
+	<dimen name="circle_icon_width">104dp</dimen>
+	<dimen name="circle_icon_margin">6dp</dimen>
+	<dimen name="circle_txt_size">20sp</dimen> -->
+
+</resources>

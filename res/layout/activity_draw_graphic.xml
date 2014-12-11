@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DrawGraphicActivity" >
+
+    <com.zcs.mframework.widget.AndroidRobotView
+        android:id="@+id/robot"
+        android:layout_width="wrap_content"
+        android:layout_height="220dip"
+        android:background="@drawable/repeat_bg_chat_1" >
+    </com.zcs.mframework.widget.AndroidRobotView>
+
+    <com.zcs.mframework.widget.MyProgressBar
+        android:id="@+id/myProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_below="@id/robot"
+        android:layout_margin="10dip"
+        android:background="#DDD" >
+    </com.zcs.mframework.widget.MyProgressBar>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dip"
+    tools:context=".ListViewPullRefreshActivity" >
+
+    <com.zcs.mframework.pullrefresh.ui.PullToRefreshListView
+        android:id="@+id/mPullListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" >
+    </com.zcs.mframework.pullrefresh.ui.PullToRefreshListView>
+
+</RelativeLayout>

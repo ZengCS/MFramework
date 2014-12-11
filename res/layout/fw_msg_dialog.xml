@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_view_msg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dip"
+    android:background="@drawable/dialog_bg_w"
+    android:gravity="center"
+    android:minHeight="180dip"
+    android:minWidth="320dip"
+    android:orientation="vertical"
+    android:paddingBottom="4dip"
+    android:paddingLeft="1dip"
+    android:paddingRight="4dip"
+    android:paddingTop="1dip" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:gravity="center"
+        android:text="@string/dialog_dft_title"
+        android:textColor="@color/new_blue"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@color/new_blue"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/dialog_msg_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="80dip"
+        android:padding="20dip"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#D9D9D9"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_msg_btn_ok"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:background="@drawable/fw_dialog_btn"
+            android:text="@string/ok"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/dialog_btn_split_line"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:contentDescription="@null" />
+
+        <Button
+            android:id="@+id/dialog_msg_btn_cancel"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:background="@drawable/fw_dialog_btn"
+            android:text="@string/cancel"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
